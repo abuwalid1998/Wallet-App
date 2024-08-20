@@ -38,18 +38,24 @@ This project is a full-stack application that allows users to manage their Ether
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-username/project-name.git
+    git clone ....
     ```
 2. Navigate to the backend directory:
     ```sh
-    cd project-name/backend
+    cd TransactionSystemBackend
     ```
 3. Configure the database connection in `application.properties`:
     ```properties
-    spring.datasource.url=jdbc:mysql://localhost:3306/your-database
-    spring.datasource.username=your-username
-    spring.datasource.password=your-password
-    spring.jpa.hibernate.ddl-auto=update
+       spring.application.name=TransactionSystem
+
+       spring.data.mongodb.uri=mongodb://localhost:27017/transaction_system
+       spring.data.mongodb.database=transaction_system
+
+
+     jwt.secret=wJalrXUtnFEMI/K7MDENG+bPxRfiCYEXAMPLEKEY
+
+
+      spring.jpa.hibernate.ddl-auto=create-update
     ```
 4. Build and run the backend application:
     ```sh
@@ -60,7 +66,7 @@ This project is a full-stack application that allows users to manage their Ether
 
 1. Navigate to the frontend directory:
     ```sh
-    cd project-name/frontend
+    cd TransactionSystemfrontend
     ```
 2. Install dependencies:
     ```sh
@@ -68,16 +74,8 @@ This project is a full-stack application that allows users to manage their Ether
     ```
 3. Run the frontend application:
     ```sh
-    npm run serve
+    npm run dev
     ```
-
-### API Endpoints
-
-- **POST** `/api/auth/register`: Register a new user
-- **POST** `/api/auth/login`: Login a user
-- **POST** `/api/wallet/buyEthereum`: Buy Ethereum
-- **POST** `/api/wallet/sellEthereum`: Sell Ethereum
-- **GET** `/api/transactions`: Get transaction logs
 
 ## Contributors
 
