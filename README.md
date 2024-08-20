@@ -19,22 +19,20 @@ This project is a full-stack application that allows users to manage their Ether
 ### Backend
 - **Spring Boot**: Framework used for building the backend API.
 - **Hibernate**: ORM tool for handling database operations.
-- **MySQL**: Database for storing user, wallet, and transaction information.
+- **MongoDB**: Database for storing user, wallet, and transaction information.
 - **Spring Security**: For securing user authentication and authorization.
 - **Spring Data JPA**: For data persistence and repository management.
 
 ### Frontend
-- **Vue.js**: Framework used for building the frontend application.
-- **Vue Router**: For handling navigation between different views.
-- **Axios**: For making HTTP requests to the backend API.
-- **Bootstrap**: For responsive and modern UI design.
+- **React**: Framework used for building the frontend application.
+- **Tailwind CSS**: For responsive and modern UI design.
 
 ## Getting Started
 
 ### Prerequisites
 - Java 21
 - Node.js
-- MySQL
+- MongoDB
 
 ### Backend Setup
 
