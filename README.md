@@ -4,7 +4,7 @@
 
 ## Description
 
-This project is a full-stack application that allows users to manage their Ethereum and USD wallets. Users can perform operations such as buying and selling Ethereum, and transaction logs are maintained for each user. The backend is built using Spring Boot, and the frontend is developed using Vue.js.
+This project is a full-stack application that allows users to manage their Ethereum and USD wallets. Users can perform operations such as buying and selling Ethereum, and transaction logs are maintained for each user. The backend is built using Spring Boot, and the frontend is developed using React.
 
 ### Key Features
 - User registration and authentication
